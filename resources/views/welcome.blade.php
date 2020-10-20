@@ -19,9 +19,12 @@
                 font-family: 'Nunito';
             }
         </style>
-        <body>
-            <div id="app"></div>
-        </body>
+        <script src="{{ asset('js/app.js') }}" defer></script>
     </head>
+        <body>
+            <div id="app">
+                <router-view></router-view>
+            </div>
+        </body>
 
 </html>
