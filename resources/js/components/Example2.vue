@@ -6,7 +6,7 @@
                     <div class="card-header">Second Component</div>
 
                     <div class="card-body">
-                        I'm a second component.
+                        I'm a second component2.
                     </div>
                 </div>
             </div>
