@@ -10,6 +10,7 @@ import VueRouter from "vue-router";
 import router from "./routes";
 
 window.Vue = require('vue');
+
 // Vue.component(
 //     "example-component",
 //     require("./components/ExampleComponent.vue").default
@@ -19,7 +20,7 @@ window.Vue = require('vue');
 //     require("./components/Example2.vue").default
 // );
 Vue.use(VueRouter);
-
+Vue.component()
 const app = new Vue({
     el: '#app',
     router,
