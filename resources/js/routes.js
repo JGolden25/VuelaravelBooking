@@ -1,6 +1,7 @@
 import VueRouter from "vue-router";
 import Example2 from "./components/Example2";
 import ExampleComponent from "./components/ExampleComponent";
+import Bookables from "./bookables/Bookables";
 
 
 const routes = [
