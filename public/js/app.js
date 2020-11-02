@@ -37638,7 +37638,11 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", [_c("h1", [_vm._v("List Item")])])
+    return _c("div", [
+      _c("h1", [_vm._v("List Item")]),
+      _vm._v(" "),
+      _c("p", [_vm._v("Content")])
+    ])
   }
 ]
 render._withStripped = true
@@ -53414,7 +53418,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var routes = [{
   path: "/",
-  component: _components_ExampleComponent__WEBPACK_IMPORTED_MODULE_2__["default"],
+  component: _bookables_Bookables__WEBPACK_IMPORTED_MODULE_3__["default"],
   name: 'home'
 }, {
   path: "/second",
