@@ -7,6 +7,6 @@
 
 <script>
 export default {
-    props: ['itemTitle', 'itemContent']
+    props: {itemTitle: String, itemContent: String, price: Number}
 }
 </script>

@@ -1916,7 +1916,11 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 /* harmony default export */ __webpack_exports__["default"] = ({
-  props: ['itemTitle', 'itemContent']
+  props: {
+    itemTitle: String,
+    itemContent: String,
+    price: Number
+  }
 });
 
 /***/ }),
@@ -37688,14 +37692,16 @@ var render = function() {
       _c("bookable-list-item", {
         attrs: {
           "item-title": "Cheap Villa",
-          "item-content": "A very cehap villa"
+          "item-content": "A very cehap villa",
+          price: 1500
         }
       }),
       _vm._v(" "),
       _c("bookable-list-item", {
         attrs: {
           "item-title": "Cheap Videography",
-          "item-content": "Cheap prices for video"
+          "item-content": "Cheap prices for video",
+          price: 1000
         }
       })
     ],
